@@ -1,6 +1,7 @@
 import React, { JSX } from "react";
 const typography = {
   Display: "text-3xl md:text-5xl font-semibold leading-tight",
+  Large: "text-2xl md:text-4xl font-semibold leading-tight",
   Heading: "text-xl md:text-3xl font-medium leading-snug",
   Subheading: "text-base md:text-xl font-medium",
   Hero: "text-4xl md:text-6xl font-semibold leading-tight tracking-tight",
