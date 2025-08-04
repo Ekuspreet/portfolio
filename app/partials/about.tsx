@@ -17,18 +17,18 @@ const About = () => {
     >
       {/* Animated Background Image */}
       <motion.div
-        className="absolute top-0  -translate-x-1/2 z-0"
-        initial={{ opacity: 0, scale: 0 }}
-        whileInView={{ opacity: 0.1, scale: 1 }}
-        viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 2 }}
+        className="absolute inset-0 z-0 -left-1/2 "
+        initial={{ opacity: 0, scale: 2 }}
+        whileInView={{ opacity: 0.05, scale: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1 }}
       >
         <Image
           src="/about.png"
           alt="Decorative background"
-          width={2000}
-          height={2000}
-          className=" pointer-events-none select-none object-contain"
+          fill
+          className="pointer-events-none select-none object-cover"
+          priority
         />
       </motion.div>
 
