@@ -44,4 +44,124 @@ export const content = {
         "Designed and programmed interactive simulations for educational purposes.",
     },
   ],
+  skills: [
+    {
+      category: "Frontend Development",
+      skills: [
+        {
+          name: "HTML",
+          icon: "https://cdn1.iconfinder.com/data/icons/programing-development-7/24/html_html5_web_programing_developer-512.png",
+        },
+        {
+          name: "CSS",
+          icon: "https://cdn-icons-png.flaticon.com/512/732/732190.png",
+        },
+        {
+          name: "JavaScript",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+        },
+        {
+          name: "TypeScript",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+        },
+        {
+          name: "React JS",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+        },
+        {
+          name: "Next.js",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
+        },
+        {
+          name: "Tailwind CSS",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+        },
+        { name: "EJS", icon: "https://ejs.co/favicon.ico" },
+      ],
+    },
+    {
+      category: "Backend Development",
+      skills: [
+        {
+          name: "Node.js",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
+        },
+        {
+          name: "Express.js",
+          icon: "https://images.seeklogo.com/logo-png/33/1/express-js-logo-png_seeklogo-339850.png",
+        },
+        {
+          name: "Flask",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg",
+        },
+      ],
+    },
+    {
+      category: "Databases",
+      skills: [
+        {
+          name: "MongoDB",
+          icon: "https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png",
+        },
+        {
+          name: "MySQL",
+          icon: "https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg",
+        },
+        {
+          name: "PostgreSQL",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
+        },
+      ],
+    },
+    {
+      category: "Development Tools",
+      skills: [
+        {
+          name: "Git",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg",
+        },
+        {
+          name: "Postman",
+          icon: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+        },
+        {
+          name: "Docker",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg",
+        },
+      ],
+    },
+    {
+      category: "Design",
+      skills: [
+        {
+          name: "Photoshop",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg",
+        },
+        {
+          name: "Illustrator",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg",
+        },
+        {
+          name: "Premiere Pro",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg",
+        },
+        {
+          name: "Designer",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Affinity_Designer_V2_icon.svg/640px-Affinity_Designer_V2_icon.svg.png",
+        },
+        {
+          name: "Photo",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Affinity_Photo_V2_icon.svg/768px-Affinity_Photo_V2_icon.svg.png",
+        },
+        {
+          name: "Publisher",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Affinity_Publisher_V2_icon.svg/640px-Affinity_Publisher_V2_icon.svg.png",
+        },
+        {
+          name: "Canva",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Canva-Logo.png/640px-Canva-Logo.png",
+        },
+      ],
+    },
+  ],
 };

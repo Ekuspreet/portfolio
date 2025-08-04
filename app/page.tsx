@@ -3,6 +3,8 @@ import About from "./partials/about";
 import { bungee } from "./fonts";
 import ScrollingQuote from "./partials/scrolling";
 import { content } from "./content";
+import Skills from "./partials/skills";
+import { Separator } from "@/components/ui/separator";
 export default function Home() {
   return (
     <>
@@ -19,6 +21,10 @@ export default function Home() {
           </div>
         </div>
         <About />
+        <Separator className="my-10" />
+        <Skills />
+        <Separator className="my-10" />
+        
       </div>
     </>
   );
