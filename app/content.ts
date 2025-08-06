@@ -88,11 +88,7 @@ export const content = {
         },
         {
           name: "Express.js",
-          icon: "https://images.seeklogo.com/logo-png/33/1/express-js-logo-png_seeklogo-339850.png",
-        },
-        {
-          name: "Flask",
-          icon: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg",
+          icon: "https://vectorified.com/images/express-js-icon-20.png",
         },
       ],
     },
@@ -134,27 +130,27 @@ export const content = {
       category: "Design",
       skills: [
         {
-          name: "Photoshop",
+          name: "Adobe Photoshop",
           icon: "https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg",
         },
         {
-          name: "Illustrator",
+          name: "Adobe Illustrator",
           icon: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg",
         },
         {
-          name: "Premiere Pro",
+          name: "Adobe Premiere",
           icon: "https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg",
         },
         {
-          name: "Designer",
+          name: "Affinity Designer",
           icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Affinity_Designer_V2_icon.svg/640px-Affinity_Designer_V2_icon.svg.png",
         },
         {
-          name: "Photo",
+          name: "Affinity Photo",
           icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Affinity_Photo_V2_icon.svg/768px-Affinity_Photo_V2_icon.svg.png",
         },
         {
-          name: "Publisher",
+          name: "Affinity Publisher",
           icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Affinity_Publisher_V2_icon.svg/640px-Affinity_Publisher_V2_icon.svg.png",
         },
         {
