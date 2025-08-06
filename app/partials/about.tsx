@@ -33,7 +33,7 @@ const About = () => {
       </motion.div>
 
       {/* Heading */}
-      <div className="relative z-10 text-center mb-4">
+      <div className="relative z-10 text-center my-8">
         <Text role="Hero">.about </Text>
       </div>
 
