@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Skill = ({ icon, name }: { icon: string; name: string }) => {
   return (
-    <div className="flex gap-1 bg-black/20 items-center h-16 rounded-lg p-1">
+    <div className="flex gap-2 bg-black/20 items-center h-16 rounded-xl p-1 px-2 border-l-2">
       <div
         className={
           "rounded-xl h-12 w-12 flex items-center justify-center p-1 " +

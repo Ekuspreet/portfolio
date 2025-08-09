@@ -8,6 +8,7 @@ import { content } from "../content";
 import { Separator } from "@/components/ui/separator";
 import Education from "./education";
 import Experience from "./experience";
+import Heading from "./heading";
 
 const About = () => {
   return (
@@ -33,9 +34,7 @@ const About = () => {
       </motion.div>
 
       {/* Heading */}
-      <div className="relative z-10 text-center my-8">
-        <Text role="Hero">.about </Text>
-      </div>
+      <Heading text={".about"} />
 
       {/* Blurry Container wrapping entire content */}
       <div className="relative z-10 w-full max-w-6xl rounded-xl  p-6 space-y-12">
