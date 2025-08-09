@@ -1,4 +1,4 @@
-import { s } from "motion/react-client";
+import { url } from "inspector";
 
 export const content = {
   // hero element
@@ -160,4 +160,103 @@ export const content = {
       ],
     },
   ],
+  projects: {
+    programming: [
+      {
+        img_url: "/graveyard.png",
+        name: "GraveYard - A Social Media Platform",
+        description:
+          "A social media platform designed with complete user anonymity. Users can dig graves(posts), give offerings(comments), and leave fireflies(not exactly likes but a button for condolences). The idea is to create a space where people can share their unachieveable goals/dreams.",
+        link: null,
+        github: "https://github.com/Ekuspreet/graveyard",
+        work_in_progress: true,
+        technologies: [
+          "Node.js",
+          "Express",
+          "PostgreSQL",
+          "React",
+          "Tailwind CSS",
+          "Shadcn UI",
+        ],
+      },
+      {
+        img_url: "/gnecse.png",
+        name: "GneCse Consulancy - A Consultancy Services Platform",
+        description:
+          "A platform built for CSE Department of GNDEC, Ludhiana to provide consultancy services to students. It allows College Alumni to connect with current students for contract tasks. It includes features for different roles like Super Admin, Teacher Mentors, Students, Alumni and Consultancy Staff.",
+        link: null,
+        github: "https://github.com/Ekuspreet/gnecse-consultancy",
+        work_in_progress: false,
+        technologies: [
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "EJS",
+          "Tailwind CSS",
+          "DaisyUI",
+        ],
+      },
+      {
+        img_url: "/virtual-labs.png",
+        name: "Basic Electrical Engineering Lab Simulation",
+        description:
+          "A simulation platform for basic electrical engineering concepts. It allows students to experiment with virtual circuits and components.",
+        link: "https://virtual-labs.chandanbir.me/",
+        github: "https://github.com/singh-chandanbir/IIT-rorkee-virtual-labs", // TODO : Update with actual link
+        work_in_progress: false,
+        technologies: ["HTML", "CSS", "JavaScript"],
+      },
+      {
+        img_url: "/nms.png",
+        name: "NMS - A Survey Management Platform",
+        description:
+          "A platform for creating and managing internal surveys with three roles, Super Admin, Admin and User. It allows Super Admin to create and manage Admins, Admins to create and manage Users, and Users to fill out surveys. Users can be assigned to multiple Admins.",
+        link: null,
+        github: "https://github.com/Ekuspreet/nms",
+        work_in_progress: false,
+        technologies: [
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "EJS",
+          "Tailwind CSS",
+          "DaisyUI",
+        ],
+      },
+    ],
+    design: {
+      logo: [
+        { img_url: "/chronos.png", name: "Chronos" },
+        { img_url: "/behind_play.jpeg", name: "Behind Play" },
+        { img_url: "/adnet.svg", name: "AdNet" },
+        { img_url: "/causmic.png", name: "Causmic Club" },
+        { img_url: "/gs springs.jpg", name: "GS Springs" },
+        { img_url: "/oque software.png", name: "Oque Software" },
+        {
+          img_url: "/preetperfectmatchmakers.png",
+          name: "Preet Perfect Matchmakers",
+        },
+        { img_url: "/westsidesourcing.png", name: "Westside Sourcing" },
+        { img_url: "/wingit.jpg", name: "WingIt" },
+        { img_url: "/english.png", name: "English Club" },
+      ],
+      magazine: [
+        {
+          img_url: "/harmony23.jpg",
+          name: "Harmony 23",
+          url: "https://drive.google.com/file/d/1nSXZwuPjKD066BD7eE694HWTsPCkYHZT/view?usp=drive_link",
+        },
+        {
+          img_url: "/harmony24.png",
+          name: "Harmony 24",
+          url: "https://drive.google.com/file/d/1fIGpgzGBYcfaDbzXVypwKlnYBEZjUBkn/view?usp=drive_link",
+        },
+        {
+          img_url: "/harmony25.png",
+          name: "Harmony 25",
+          url: "https://drive.google.com/file/d/1Rdbu4CcSaVmVZAwC04akQSrCYLk3KpOj/view?usp=drive_link",
+        },
+      ],
+    },
+  },
 };
