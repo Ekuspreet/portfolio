@@ -259,4 +259,36 @@ export const content = {
       ],
     },
   },
+  contact_links: [
+    {
+      url: "https://wa.me/1234567890",
+      label: "WhatsApp",
+      img_url: "/whatsapp.png",
+    },
+    {
+      url: "https://www.linkedin.com/in/ekuspreet-singh-16734a267/",
+      label: "LinkedIn",
+      img_url: "/linkedin.png",
+    },
+    {
+      url: "https://github.com/Ekuspreet",
+      label: "GitHub",
+      img_url: "/github.png",
+    },
+    {
+      url: "https://t.me/ekuspreetsingh",
+      label: "Telegram",
+      img_url: "/telegram.png",
+    },
+    {
+      url: "tel:+918146436784",
+      label: "Call Me (+91 81464 36784)",
+      img_url: "/phone.png",
+    },
+    {
+      url: "mailto:ekuspreetsingh2@gmail.com",
+      label: "Email Me (ekuspreetsingh2@gmail.com)",
+      img_url: "/mail.png",
+    },
+  ],
 };

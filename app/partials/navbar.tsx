@@ -9,15 +9,44 @@ import {
 import { Button } from "@/components/ui/button";
 import { outfit } from "../fonts";
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 const NavbarItems = [
   { name: "About", href: "#about" },
-  { name: "Work", href: "#projects" },
   { name: "Skills", href: "#skills" },
+  { name: "Work", href: "#projects" },
   { name: "Contact", href: "#contact" },
 ];
 
 export default function Navbar() {
+  const [activeSection, setActiveSection] = useState("");
+
+  useEffect(() => {
+    const sectionIds = NavbarItems.map((item) => item.href.replace("#", ""));
+    const sections = sectionIds.map((id) => document.getElementById(id));
+
+    function onScroll() {
+      let current = "";
+      sections.forEach((section) => {
+        if (section) {
+          const sectionTop = section.offsetTop - 100; // adjust offset for navbar height
+          const sectionHeight = section.offsetHeight;
+          if (
+            window.scrollY >= sectionTop &&
+            window.scrollY < sectionTop + sectionHeight
+          ) {
+            current = section.id;
+          }
+        }
+      });
+      setActiveSection(current);
+    }
+
+    window.addEventListener("scroll", onScroll);
+    onScroll(); // set initial state
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -35,11 +64,13 @@ export default function Navbar() {
             <NavigationMenuItem key={item.name}>
               <Link href={item.href}>
                 <Button
-                  key={item.name}
-                  variant="outline"
+                  variant={
+                    activeSection === item.href.replace("#", "")
+                      ? "default"
+                      : "outline"
+                  }
                   size="sm"
-                  className="transition-all duration-500 ease-in-out hover:mx-1 cursor-pointer"
-                  onClick={() => console.log(`${item.name} clicked`)}
+                  className={`transition-all duration-500 ease-in-out hover:mx-1 cursor-pointer`}
                 >
                   {item.name}
                 </Button>
@@ -47,10 +78,7 @@ export default function Navbar() {
             </NavigationMenuItem>
           ))}
           |
-          <a
-            href="/EkuspreetSingh_Resume_Latest.pdf"
-            //   download={"Ekuspreet_Resume.pdf"}
-          >
+          <a href="/EkuspreetSingh_Resume_Latest.pdf">
             <Button variant="outline" size="sm" className=" cursor-pointer">
               Résumé
             </Button>
