@@ -7,8 +7,10 @@ export default function MyApp() {
     (async function () {
       const cal = await getCalApi({ namespace: "secret" });
       cal("ui", {
-        // @ts-ignore
-        cssVarsPerTheme: { dark: { "cal-brand": "#bf73ae" } },
+        cssVarsPerTheme: {
+          dark: { "cal-brand": "#bf73ae" },
+          light: { "cal-brand": "#bf73ae" },
+        },
         hideEventTypeDetails: false,
         layout: window.innerWidth < 640 ? "week_view" : "month_view", // mobile-friendly
       });

@@ -3,7 +3,6 @@ import { playfairDisplay } from "../fonts";
 import Heading from "./heading";
 import Text from "./text";
 import { content } from "../content";
-import Skill from "./skill";
 import Project from "./project";
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
