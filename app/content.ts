@@ -1,5 +1,3 @@
-import { url } from "inspector";
-
 export const content = {
   // hero element
   greeting: "Hi, I am Ekuspreet Singh",

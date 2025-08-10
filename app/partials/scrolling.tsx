@@ -5,7 +5,7 @@ import {
   useMotionValue,
   useTransform,
 } from "framer-motion";
-import { useRef, useEffect, useState } from "react";
+import { useRef, useEffect } from "react";
 
 interface ScrollingTextProps {
   text: string;
@@ -20,8 +20,6 @@ const ScrollingText = ({
 }: ScrollingTextProps) => {
   const baseX = useMotionValue(0);
   const containerRef = useRef<HTMLDivElement>(null);
-  const [textWidth, setTextWidth] = useState(0);
-
   const repeatedText = Array(20).fill(text).join(" ");
 
   const moveX = useTransform(baseX, (v) => `${v}px`);
@@ -49,7 +47,9 @@ const ScrollingText = ({
   }, [baseX]);
 
   return (
-    <div className="overflow-hidden whitespace-nowrap w-full">
+    <div
+      className={"overflow-hidden whitespace-nowrap w-full" + " " + className}
+    >
       <motion.div
         className="inline-block"
         ref={containerRef}

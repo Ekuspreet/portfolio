@@ -1,6 +1,5 @@
 import React from "react";
 import { content } from "../content";
-import Image from "next/image";
 import { playfairDisplay } from "../fonts";
 import Text from "./text";
 import Skill from "./skill";
