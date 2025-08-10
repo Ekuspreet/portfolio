@@ -17,21 +17,6 @@ const About = () => {
       className={`${playfairDisplay.className} outline backdrop-blur-3xl relative w-11/12 mx-auto pt-12 mt-12 rounded-xl px-4 flex flex-col items-center bg-transparent overflow-hidden`}
     >
       {/* Animated Background Image */}
-      <motion.div
-        className="absolute inset-0 z-0 -left-1/2 "
-        initial={{ opacity: 0, scale: 2 }}
-        whileInView={{ opacity: 0.05, scale: 1 }}
-        viewport={{ once: true }}
-        transition={{ duration: 1 }}
-      >
-        <Image
-          src="/about.png"
-          alt="Decorative background"
-          fill
-          className="pointer-events-none select-none object-cover"
-          priority
-        />
-      </motion.div>
 
       {/* Heading */}
       <Heading text={".about"} />
