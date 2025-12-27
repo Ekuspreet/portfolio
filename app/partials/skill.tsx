@@ -6,7 +6,7 @@ const Skill = ({ icon, name }: { icon: string; name: string }) => {
       <div
         className={
           "rounded-xl h-12 w-12 flex items-center justify-center p-1 " +
-          (["Next.js", "Node.js", "Docker", "Canva"].includes(name)
+          (["Next.js", "Node.js", "Docker", "Canva", "Affinity"].includes(name)
             ? "bg-white/80"
             : "") +
           (["MongoDB"].includes(name) ? "bg-gray-200/60" : "")

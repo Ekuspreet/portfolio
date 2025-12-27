@@ -6,11 +6,11 @@ export const content = {
   hero_line_three: "Fold Stories per Pixels.",
   // about section
   scroll_quotes:
-    "DESIGN IS INTENTION ✽ FORM FOLLOWS EMOTION ✽ MAKE IT MEMORABLE ✽ BEAUTY IS PURPOSEFULL ✽ ",
+    "DESIGN IS INTENTION ✽ FORM FOLLOWS EMOTION ✽ BEAUTY IS PURPOSEFULL ✽ ",
   name: "Ekuspreet Singh",
-  designation: "Graphic Designer & Software Developer",
+  designation: "Graphic Designer & Developer",
   brief_description:
-    "I'm a developer and designer exploring the space where code meets emotion. I build real-time, multiplayer web apps, expressive interfaces, and experiments in color, motion, and geometry. From system architecture to micro-interactions, I care about how things work—and how they feel.",
+    "I’m a full-stack developer and product designer based in Ludhiana, Punjab, India. I am currently working as a full stack developer. I build web products end-to-end, with clean UI's, reliable and secure backend systems. I work with React/Next.js and TypeScript on the frontend, Node.js/Express/Fast API for APIs, and databases like PostgreSQL/MongoDB, along with Git and Docker for version control and containerization. On the design front, I work with Adobe Creative Suite and Serif Affinity. Know more about me below or schedule a meeting through the contact section.",
   education: [
     {
       date: "2021 - 2025",
@@ -140,20 +140,12 @@ export const content = {
           icon: "https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg",
         },
         {
-          name: "Affinity Designer",
-          icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Affinity_Designer_V2_icon.svg/640px-Affinity_Designer_V2_icon.svg.png",
-        },
-        {
-          name: "Affinity Photo",
-          icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Affinity_Photo_V2_icon.svg/768px-Affinity_Photo_V2_icon.svg.png",
-        },
-        {
-          name: "Affinity Publisher",
-          icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Affinity_Publisher_V2_icon.svg/640px-Affinity_Publisher_V2_icon.svg.png",
+          name: "Affinity",
+          icon: "https://cdn.freebiesupply.com/logos/large/2x/affinity-1-logo-png-transparent.png",
         },
         {
           name: "Canva",
-          icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Canva-Logo.png/640px-Canva-Logo.png",
+          icon: "https://freelogopng.com/images/all_img/1656733637logo-canva-png.png",
         },
       ],
     },
