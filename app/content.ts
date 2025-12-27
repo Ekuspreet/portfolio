@@ -140,20 +140,12 @@ export const content = {
           icon: "https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg",
         },
         {
-          name: "Affinity Designer",
-          icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Affinity_Designer_V2_icon.svg/640px-Affinity_Designer_V2_icon.svg.png",
-        },
-        {
-          name: "Affinity Photo",
-          icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Affinity_Photo_V2_icon.svg/768px-Affinity_Photo_V2_icon.svg.png",
-        },
-        {
-          name: "Affinity Publisher",
-          icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Affinity_Publisher_V2_icon.svg/640px-Affinity_Publisher_V2_icon.svg.png",
+          name: "Affinity",
+          icon: "https://cdn.freebiesupply.com/logos/large/2x/affinity-1-logo-png-transparent.png",
         },
         {
           name: "Canva",
-          icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Canva-Logo.png/640px-Canva-Logo.png",
+          icon: "https://freelogopng.com/images/all_img/1656733637logo-canva-png.png",
         },
       ],
     },

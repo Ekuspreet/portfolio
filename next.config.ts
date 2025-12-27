@@ -30,7 +30,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "images.seeklogo.com",
+        hostname: "cdn.freebiesupply.com",
       },
       {
         protocol: "https",
@@ -39,6 +39,10 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "vectorified.com",
+      },
+      {
+        protocol: "https",
+        hostname: "freelogopng.com",
       },
     ],
   },

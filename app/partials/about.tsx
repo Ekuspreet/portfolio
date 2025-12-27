@@ -25,7 +25,7 @@ const About = () => {
         {/* Image + Text Row */}
         <div className="flex flex-col md:flex-row items-center md:items-start gap-10">
           {/* Profile Image */}
-          <div className="relative w-64 aspect-square overflow-hidden rounded-2xl shadow-lg shrink-0">
+          <div className="relative w-64 aspect-[3/4] overflow-hidden rounded-2xl shadow-lg shrink-0">
             <Image
               src="/profile.jpg"
               fill
