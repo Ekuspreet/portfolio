@@ -6,11 +6,11 @@ export const content = {
   hero_line_three: "Fold Stories per Pixels.",
   // about section
   scroll_quotes:
-    "DESIGN IS INTENTION ✽ FORM FOLLOWS EMOTION ✽ MAKE IT MEMORABLE ✽ BEAUTY IS PURPOSEFULL ✽ ",
+    "DESIGN IS INTENTION ✽ FORM FOLLOWS EMOTION ✽ BEAUTY IS PURPOSEFULL ✽ ",
   name: "Ekuspreet Singh",
-  designation: "Graphic Designer & Software Developer",
+  designation: "Graphic Designer & Developer",
   brief_description:
-    "I'm a developer and designer exploring the space where code meets emotion. I build real-time, multiplayer web apps, expressive interfaces, and experiments in color, motion, and geometry. From system architecture to micro-interactions, I care about how things work—and how they feel.",
+    "I’m a full-stack developer and product designer based in Ludhiana, Punjab, India. I am currently working as a full stack developer. I build web products end-to-end, with clean UI's, reliable and secure backend systems. I work with React/Next.js and TypeScript on the frontend, Node.js/Express/Fast API for APIs, and databases like PostgreSQL/MongoDB, along with Git and Docker for version control and containerization. On the design front, I work with Adobe Creative Suite and Serif Affinity. Know more about me below or schedule a meeting through the contact section.",
   education: [
     {
       date: "2021 - 2025",
